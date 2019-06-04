@@ -1,0 +1,15 @@
+A* for C++ by Dustin Morrison
+
+The fastest way to solve a single-pair shortest path problem for a nonuniform
+weighted undirected graph is by using the A* search algorithm.
+
+Most single-pair solutions for other types of graphs use the A* as a base, so
+this version was written keeping that in mind.
+
+Terms:
+Graph - a complete set of vertices and edges
+Vertex - the building blocks of graphs
+Edge - the connection of two vertices
+Weight - the cost of using an edge to get to a neighboring vertex
+Source - the starting vertex
+Destination - the ending vertex
